@@ -1,10 +1,10 @@
 import data
 from data import resources, menu
-# TODO : 1) print report   
-# TODO : 2) check resources sufficient ? 
-# TODO : 3) process coins 
-# TODO : 4) check transaction successful? 
-# TODO : 5) make a coffee 
+# TODO : 1) print report
+# TODO : 2) check resources sufficient ?
+# TODO : 3) process coins
+# TODO : 4) check transaction successful?
+# TODO : 5) make a coffee
 
 
 def print_report(): #print all resource and money
@@ -54,7 +54,7 @@ def check_transaction_succesful(price): #ask money  to pay chosen drink
     sum = (quarters * QUARTER) + (dime * DIME) + (nikel * NIKEL) + (penny * PENNY)
     return sum
 
-#start
+#---------------------------------start vending machine-------------------------------------------------
 on_off = False
 while on_off != True:
     chosen = input("what would you like? (espresso/latte/cappuccino):")
